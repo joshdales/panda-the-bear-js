@@ -28,3 +28,11 @@ Change the colour of the body.
 
 var body = document.querySelector('body');
 body.style.background = 'cadetblue';
+
+** Question 6
+Change the colour of each element using the highlight class. Use a for loop to do this.
+
+var highlight = document.querySelectorAll('.highlight');
+highlight.forEach(function(element) {
+    element.style.color = 'black';
+})
