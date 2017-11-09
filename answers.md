@@ -76,3 +76,10 @@ message.placeholder = 'State your business';
 Give the name field a "value" attribute of "your nemesis".
 
 nameField.value = 'Your Nemesis';
+
+
+** Question 12
+Change the value attribute of the email field to "koalathebear@gmail.com".
+
+var emailField = document.querySelector('input#email.contact-info');
+emailField.value = 'koalathebear@gmail.com';
