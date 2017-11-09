@@ -9,3 +9,9 @@ Use the same approach to select the element that contains the photo of the sky a
 
 var skyImage = document.querySelector('#left-image.portfolio-image > img');
 skyImage.src = 'http://www.vanguarduniversityvoice.com/wp-content/uploads/2016/10/starry-sky-forest-325x225.jpg';
+
+** Question 3
+Select the heading that says "Panda the Bear" and change it to your own name.
+
+var title = document.querySelector('h1.highlight');
+title.innerText = 'Josh Dales'
