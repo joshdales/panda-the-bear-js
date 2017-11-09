@@ -96,3 +96,13 @@ submitButton.value = 'En garde!';
 We should stop Koala from sending an email to Panda that they might regret! Find a way to disable the submit button (hint: familiarize yourself with the disabled attribute).
 
 submitButton.disabled = true;
+
+
+** Question 15
+We should help Panda protect their privacy by erasing their personal details from the sidebar.
+
+var bio = document.querySelector('.bio-info');
+var bioInfo = document.querySelectorAll('.bio-info-value');
+bioInfo.forEach(function(info) {
+  info.innerText = '';
+});
