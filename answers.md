@@ -15,3 +15,9 @@ Select the heading that says "Panda the Bear" and change it to your own name.
 
 var title = document.querySelector('h1.highlight');
 title.innerText = 'Josh Dales'
+
+** Question 4
+Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
+
+empolymentTitle = document.querySelector('#employment .info-title')
+empolymentTitle.innerText = 'Jobs and tings';
