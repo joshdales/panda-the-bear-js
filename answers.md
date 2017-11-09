@@ -63,3 +63,9 @@ Scroll down to the contact form. Change the placeholder attribute of the name fi
 
 var nameField = document.querySelector('input#name.contact-info');
 nameField.placeholder = 'Identify Yourself';
+
+** Question 10
+Change the placeholder attribute of the message field to "state your business".
+
+var message = document.querySelector('textarea#message');
+message.placeholder = 'State your business';
