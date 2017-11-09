@@ -19,5 +19,12 @@ title.innerText = 'Josh Dales'
 ** Question 4
 Select the heading that says "Employment" and change it to something else. (hint: use a descendant selector)
 
-empolymentTitle = document.querySelector('#employment .info-title')
+empolymentTitle = document.querySelector('#employment .info-title');
 empolymentTitle.innerText = 'Jobs and tings';
+
+
+** Question 5
+Change the colour of the body.
+
+var body = document.querySelector('body');
+body.style.background = 'cadetblue';
