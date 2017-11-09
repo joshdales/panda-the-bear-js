@@ -56,3 +56,10 @@ var roundIcons = document.querySelectorAll('.action-icon-bg');
 roundIcons.forEach(function(icon){
     icon.style.background = 'green';
 });
+
+
+** Question 9
+Scroll down to the contact form. Change the placeholder attribute of the name field to "identify yourself".
+
+var nameField = document.querySelector('input#name.contact-info');
+nameField.placeholder = 'Identify Yourself';
