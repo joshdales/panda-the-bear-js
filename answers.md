@@ -147,3 +147,12 @@ var TimeTravel = barDefault.forEach(function(bar) {
     );
 barDefault[2].removeChild(timeTravel);
 ```
+
+## Question 2
+That drawing of Pikachu is really cute. Let’s duplicate it using cloneNode() and insert it at the bottom of the .portfolio-container using insertAdjacentHTML() or appendChild().
+
+```javascript
+var pikaImage = document.querySelector('#right-image.portfolio-image > img');
+var portfolioContainer = document.querySelector('.portfolio-container');
+portfolioContainer.appendChild(pikaImage);
+```
