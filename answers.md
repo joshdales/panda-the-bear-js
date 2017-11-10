@@ -154,5 +154,13 @@ That drawing of Pikachu is really cute. Let’s duplicate it using cloneNode() a
 ```javascript
 var pikaImage = document.querySelector('#right-image.portfolio-image > img');
 var portfolioContainer = document.querySelector('.portfolio-container');
-portfolioContainer.appendChild(pikaImage);
+var clonePika = pikaImage.cloneNode();
+portfolioContainer.appendChild(clonePika);
+```
+## Question 3
+Wow, that was so satisfying I think we should do it 10 more times. Use a for loop to help you do this.
+
+```javascript
+for (var i = 0; i <= 10; i++) {
+    portfolioContainer.appendChild( pikaImage.cloneNode() ) };
 ```
