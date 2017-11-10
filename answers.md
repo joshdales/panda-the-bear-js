@@ -164,3 +164,24 @@ Wow, that was so satisfying I think we should do it 10 more times. Use a for loo
 for (var i = 0; i <= 10; i++) {
     portfolioContainer.appendChild( pikaImage.cloneNode() ) };
 ```
+
+## Question 4
+Let’s add a message about when the page was last updated. We'll do this by appending a new <li> element to the <ul> in the sidebar (you might need to refresh the page to bring back the list items that we emptied out earlier).
+
+```javascript
+var newListItem = document.createElement('li');
+newListItem.className += 'bio-info-item';
+var leftSpan = document.createElement('span');
+leftSpan.className += 'bio-info-title';
+var lastUpdated = document.createTextNode('Page Last Updated on');
+var rightSpan = document.createElement('span');
+rightSpan.className += 'bio-info-value';
+var updatedText = document.createTextNode(new Date());
+leftSpan.appendChild(lastUpdated);
+rightSpan.appendChild(updatedText);
+newListItem.appendChild(leftSpan);
+newListItem.appendChild(rightSpan);
+var bioInfo = document.querySelector('.bio-info');
+bioInfo.appendChild(newListItem);
+
+```
